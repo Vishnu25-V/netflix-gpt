@@ -9,7 +9,7 @@ const Browse = () => {
   useNowPlayingMovies();
   return (
     
-    <div>
+    <div >
       <Header/>
       {
         /*Main Container

@@ -46,7 +46,7 @@ return ()=> unsubscribe();
     <div className='absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between'>
         {/* <img className='w-40' src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
         alt='logo'/> */}
-         <img className='w-40' src={LOGO}
+         <img className='w-40 font-bold' src={LOGO}
         alt='logo'/>
 
         {user &&(<div className='flex items-center gap-2'>
