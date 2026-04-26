@@ -5,10 +5,9 @@ import { N_BACKGROUND } from '../utils/constant'
 
 const GptSearch = () => {
   return (
-    <div>
+    <div className='bg-gray-900'>
          <div className='absolute -z-10'>
-             <img src={N_BACKGROUND}
-            />
+         
         </div>
         <GptSearchBar/>
         <GptMovieSuggestion/>
