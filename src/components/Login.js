@@ -6,7 +6,7 @@ import { auth } from '../utils/firebase'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { addUser } from '../utils/userSlice'
-import { USER_AVATAR } from '../utils/constant'
+import { N_BACKGROUND, USER_AVATAR } from '../utils/constant'
 
 const Login = () => {
 
@@ -85,7 +85,7 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
     <div>
         <Header/>
         <div className='absolute'>
-            { <img src="https://assets.nflxext.com/ffe/siteui/vlv3/5bd3572a-0d1b-4228-aaa7-5b2dc45952b2/web/IN-en-20260413-TRIFECTA-perspective_4100808f-7dc6-4c78-8677-18db2989f7bc_large.jpg"
+            { <img src={N_BACKGROUND}
             />}
         </div>
         <form onSubmit={(e)=>e.preventDefault()} className='w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80'>
